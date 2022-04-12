@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-// import Icon from "../Icon/icon";
+import Icon from "../icons/icon";
 
 const HomePage: React.FC = () => {
   return (
@@ -21,27 +21,27 @@ const HomePage: React.FC = () => {
               </li>
               <li>
                 <a href="https://www.yuque.com/u5019886/dylh6b">
-                  {/*<Icon linkId="yuque"/>*/}
+                  <Icon linkId="yuque"/>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/XiaoPan-Struggle/Genshin_UI">
-                  {/*<Icon linkId="Github"/>*/}
+                <a href="https://github.com/XiaoPan-Struggle/genshinui">
+                  <Icon linkId="Github"/>
                 </a>
               </li>
             </ul>
           </div>
         </div>
         <div className="main">
-          <a href="https://github.com/XiaoPan-Struggle/Genshin_UI">
+          <a href="https://github.com/XiaoPan-Struggle/genshinui">
             <div className="introduction">
-              {/*<Icon linkId="Github"/>*/}
+              <Icon linkId="Github"/>
               <h3>Github</h3>
             </div>
           </a>
           <ul>
             <li>
-              {/*<Icon classname={"react-icon"} linkId="React"/>*/}
+              <Icon classname={"react-icon"} linkId="React"/>
               <div>
                 <h1>React 函数组件</h1>
                 <span>
@@ -50,7 +50,7 @@ const HomePage: React.FC = () => {
               </div>
             </li>
             <li>
-              {/*<Icon linkId="typescript"/>*/}
+              <Icon linkId="typescript"/>
               <div>
                 <h1>基于 Typescript</h1>
                 <span>
@@ -61,7 +61,7 @@ const HomePage: React.FC = () => {
           </ul>
           <Link to="/doc/action">
             <div className="introduction">
-              {/*<Icon linkId="Action"/>*/}
+              <Icon linkId="Action"/>
               <h3>开始使用</h3>
             </div>
           </Link>
