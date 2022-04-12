@@ -13,7 +13,6 @@ import Install from "./markdown/install.md";
 import Started from "./markdown/started.md";
 
 import G from "./Gin";
-console.log(Intro,'???');
 
 
 function App() {
