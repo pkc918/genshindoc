@@ -1,5 +1,5 @@
-const {override, addWebpackModuleRule} = require('customize-cra');
-const path = require('path');
+const {override, addWebpackModuleRule} = require("customize-cra");
+const path = require("path");
 
 module.exports = override(
   addWebpackModuleRule({
@@ -7,8 +7,12 @@ module.exports = override(
       include: [path.resolve(__dirname, "./src/icons")],
       use: [
           {
-              loader: 'svg-sprite-loader',
+              loader: "svg-sprite-loader",
               options: {symbolId: "icon-[name]"}
           }]
+  }),
+  addWebpackModuleRule({
+      test: /\.md$/,
+      use: "raw-loader"
   })
 );
