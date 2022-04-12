@@ -14,6 +14,9 @@ const navLinkData: navLinkType[] = [{
 }, {
   toPath: "/doc/install",
   btnName: "安装"
+}, {
+  toPath: "/doc/action",
+  btnName: "开始使用"
 }];
 
 const NavBar: React.FC = () => {

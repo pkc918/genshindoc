@@ -1,6 +1,9 @@
 // global
 @import "reboot";
 
+// markdown style
+@import "~github-markdown-css";
+
 // homepage
 @import "../pages/homepage/home";
 
@@ -10,8 +13,7 @@
 // navBar
 @import "src/doc/NavBar/navBar";
 
-// markdown style
-@import "~github-markdown-css";
-
 // markdown
 @import "src/doc/MarkdownShow/markdownShow";
+
+
