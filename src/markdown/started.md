@@ -5,7 +5,7 @@
 然后在你的代码中写入下面的代码
 
 ```typescript
-import 'genshinui/build/index.css';
+import 'genshinui/dist/index.css';
 import { Button } from "genshinui";
 ```
 
