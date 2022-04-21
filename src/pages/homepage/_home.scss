@@ -57,6 +57,7 @@ a {
       .container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 12px;
         font-size: 17px;
         width: 1400px;
@@ -76,6 +77,8 @@ a {
           display: flex;
           justify-content: center;
           align-items: center;
+          height: 100%;
+          margin: 0;
 
           li {
 
@@ -102,7 +105,6 @@ a {
     .main {
       display: flex;
       justify-content: center;
-      align-items: center;
       margin-bottom: 40px;
 
       .introduction {
