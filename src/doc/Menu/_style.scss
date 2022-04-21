@@ -1,0 +1,16 @@
+.menudoc {
+  display: flex;
+  justify-content: space-between;
+
+  > div > h3 {
+    text-align: center;
+  }
+
+  .menu-horizontal {
+    height: 40px;
+
+    .menu-item {
+      margin: 0;
+    }
+  }
+}
