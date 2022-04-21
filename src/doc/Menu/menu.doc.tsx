@@ -3,8 +3,6 @@ import MarkDownShow from "../MarkdownShow/markdownShow";
 import Layout from "../Layout/layout";
 import menuDoc from "../../markdown/menuDoc.md";
 import {Menu} from "genshinui";
-import MenuItem from "genshinui/dist/components/Menu/menuItem";
-import SubMenu from "genshinui/dist/components/Menu/subMenu";
 
 
 const MenuDoc: React.FC = () => {
@@ -15,27 +13,27 @@ const MenuDoc: React.FC = () => {
           <div>
             <h3>vertical</h3>
             <Menu mode={"vertical"}>
-              <MenuItem>menu1</MenuItem>
-              <MenuItem>menu2</MenuItem>
-              <MenuItem>menu3</MenuItem>
-              <SubMenu title={"subMenu"}>
-                <MenuItem>sub1</MenuItem>
-                <MenuItem>sub2</MenuItem>
-                <MenuItem>sub3</MenuItem>
-              </SubMenu>
+              <Menu.Item>menu1</Menu.Item>
+              <Menu.Item>menu2</Menu.Item>
+              <Menu.Item>menu3</Menu.Item>
+              <Menu.SubMenu title={"subMenu"}>
+                <Menu.Item>sub1</Menu.Item>
+                <Menu.Item>sub2</Menu.Item>
+                <Menu.Item>sub3</Menu.Item>
+              </Menu.SubMenu>
             </Menu>
           </div>
           <div>
             <h3>horizontal</h3>
             <Menu mode={"horizontal"}>
-              <MenuItem>menu1</MenuItem>
-              <MenuItem>menu2</MenuItem>
-              <MenuItem>menu3</MenuItem>
-              <SubMenu title={"subMenu"}>
-                <MenuItem>sub1</MenuItem>
-                <MenuItem>sub2</MenuItem>
-                <MenuItem>sub3</MenuItem>
-              </SubMenu>
+              <Menu.Item>menu1</Menu.Item>
+              <Menu.Item>menu2</Menu.Item>
+              <Menu.Item>menu3</Menu.Item>
+              <Menu.SubMenu title={"subMenu"}>
+                <Menu.Item>sub1</Menu.Item>
+                <Menu.Item>sub2</Menu.Item>
+                <Menu.Item>sub3</Menu.Item>
+              </Menu.SubMenu>
             </Menu>
           </div>
         </div>

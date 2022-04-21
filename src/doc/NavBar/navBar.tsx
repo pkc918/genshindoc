@@ -23,6 +23,12 @@ const navLinkData: navLinkType[] = [{
 }, {
   toPath: "/doc/menu",
   btnName: "Menu 菜单"
+}, {
+  toPath: "/doc/icon",
+  btnName: "Icon 图标"
+}, {
+  toPath: "/doc/transition",
+  btnName: "Transition 动画"
 }];
 
 const NavBar: React.FC = () => {
