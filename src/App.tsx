@@ -17,6 +17,7 @@ import ButtonDoc from "./doc/Button/button.doc";
 import MenuDoc from "./doc/Menu/menu.doc";
 import IconDoc from "./doc/Icon/icon.doc";
 import TransitionDoc from "./doc/Transition/transition.doc";
+import InputDoc from "./doc/Input/input.doc";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/doc/menu" element={<MenuDoc/>}/>
           <Route path="/doc/icon" element={<IconDoc/>}/>
           <Route path="/doc/transition" element={<TransitionDoc/>} />
+          <Route path="/doc/input" element={<InputDoc/>} />
         </Route>
         <Route path={"*"} element={<G/>}/>
       </Routes>

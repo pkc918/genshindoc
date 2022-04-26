@@ -29,6 +29,9 @@ const navLinkData: navLinkType[] = [{
 }, {
   toPath: "/doc/transition",
   btnName: "Transition 动画"
+}, {
+  toPath: "/doc/input",
+  btnName: "Input 输入框"
 }];
 
 const NavBar: React.FC = () => {
