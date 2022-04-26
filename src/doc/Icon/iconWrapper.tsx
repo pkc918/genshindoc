@@ -23,7 +23,7 @@ const IconWrapper: React.FC<iconWrapperType> = ({iconData}) => {
             );
           })
         }
-        <a className="icon-item" href="https://fontawesome.com/search?s=brands">更多图标</a>
+        <a target="_blank" className="icon-item" href="https://fontawesome.com/search?s=brands">更多图标</a>
       </div>
     </>
   );
