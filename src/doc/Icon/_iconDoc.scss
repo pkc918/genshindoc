@@ -1,0 +1,38 @@
+.icon-item-wrapper {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-content: center;
+
+  .icon-item {
+    width: 20%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+
+    .icon-item-container {
+      width: 120px;
+      max-width: 120px;
+      padding: 24px;
+      background: rgba(17, 17, 17, 0.75);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+      text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+
+      .icon {
+        font-size: 2em;
+      }
+
+      h5 {
+        margin-bottom: 0;
+        margin-top: 8px;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
