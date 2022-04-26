@@ -15,6 +15,8 @@ import Started from "./markdown/started.md";
 import G from "./Gin";
 import ButtonDoc from "./doc/Button/button.doc";
 import MenuDoc from "./doc/Menu/menu.doc";
+import IconDoc from "./doc/Icon/icon.doc";
+import TransitionDoc from "./doc/Transition/transition.doc";
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
           <Route path="/doc/action" element={<Layout><MarkDownShow mdData={Started}/></Layout>}/>
           <Route path="/doc/button" element={<ButtonDoc/>}/>
           <Route path="/doc/menu" element={<MenuDoc/>}/>
+          <Route path="/doc/icon" element={<IconDoc/>}/>
+          <Route path="/doc/transition" element={<TransitionDoc/>} />
         </Route>
         <Route path={"*"} element={<G/>}/>
       </Routes>
