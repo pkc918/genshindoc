@@ -19,6 +19,7 @@ import IconDoc from "./doc/Icon/icon.doc";
 import TransitionDoc from "./doc/Transition/transition.doc";
 import InputDoc from "./doc/Input/input.doc";
 import ProgressDoc from "./doc/Progress/progress.doc";
+import UploadDoc from "./doc/Upload/upload.doc";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Route path="/doc/transition" element={<TransitionDoc/>}/>
           <Route path="/doc/input" element={<InputDoc/>}/>
           <Route path="/doc/progress" element={<ProgressDoc/>}/>
+          <Route path="/doc/upload" element={<UploadDoc/>}/>
         </Route>
         <Route path={"*"} element={<More/>}/>
       </Routes>
