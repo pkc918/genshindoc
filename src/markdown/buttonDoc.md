@@ -3,10 +3,16 @@
 使用 `btnType` 来定义按钮的样式。
 
 ```tsx
-<Button btnType="primary">primary</Button>
-<Button btnType="danger">danger</Button>
-<Button btnType="default">genshin</Button>
-<Button hrefLink="https://github.com/XiaoPan-Struggle/genshinui" btnType="link">genshinui</Button>
+import {Button} from "genshinui";
+
+export default () => (
+  <>
+    <Button btnType="primary">primary</Button>
+    <Button btnType="danger">danger</Button>
+    <Button btnType="default">genshin</Button>
+    <Button hrefLink="https://github.com/XiaoPan-Struggle/genshinui" btnType="link">genshinui</Button>
+  </>
+);
 ```
 
 ### 各种尺寸的Button
@@ -16,9 +22,16 @@
 使用 `size` 属性额外配置尺寸，可使用 `lg`和`sm`两种值。
 
 ```tsx
-<Button btnType="primary" size="lg">primary</Button>
-<Button btnType="danger" size="df">danger</Button>
-<Button btnType="default" size="sm">genshin</Button>
+import {Button} from "genshinui";
+
+export default () => (
+  <>
+    <Button btnType="primary" size="lg">primary</Button>
+    <Button btnType="danger" size="df">danger</Button>
+    <Button btnType="default" size="sm">genshin</Button>
+  </>
+);
+
 ```
 
 ### 禁用状态
@@ -28,8 +41,14 @@
 使用 `disabled` 属性来控制按钮是否为禁用状态。 该属性接受一个 `Boolean` 类型的值。
 
 ```tsx
-<Button disabled>disabled</Button>
-<Button disabled hrefLink="https://github.com/XiaoPan-Struggle/genshinui" btnType="link">genshinui</Button>
+import {Button} from "genshinui";
+
+export default () => (
+  <>
+    <Button disabled>disabled</Button>
+    <Button disabled hrefLink="https://github.com/XiaoPan-Struggle/genshinui" btnType="link">genshinui</Button>
+  </>
+);
 ```
 
 ### Button 的属性

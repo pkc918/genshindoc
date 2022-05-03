@@ -1,33 +1,39 @@
 ### Menu 基础用法
 ```tsx
-<div className="menudoc">
-  <div>
-    <h3>vertical</h3>
-    <Menu mode={"vertical"}>
-      <Menu.Item>menu1</Menu.Item>
-      <Menu.Item>menu2</Menu.Item>
-      <Menu.Item>menu3</Menu.Item>
-      <Menu.SubMenu title={"subMenu"}>
-        <Menu.Item>sub1</Menu.Item>
-        <Menu.Item>sub2</Menu.Item>
-        <Menu.Item>sub3</Menu.Item>
-      </Menu.SubMenu>
-    </Menu>
-  </div>
-  <div>
-    <h3>horizontal</h3>
-    <Menu mode={"horizontal"}>
-      <Menu.Item>menu1</Menu.Item>
-      <Menu.Item>menu2</Menu.Item>
-      <Menu.Item>menu3</Menu.Item>
-      <Menu.SubMenu title={"subMenu"}>
-        <Menu.Item>sub1</Menu.Item>
-        <Menu.Item>sub2</Menu.Item>
-        <Menu.Item>sub3</Menu.Item>
-      </Menu.SubMenu>
-    </Menu>
-  </div>
-</div>
+import {Menu} from "genshinui";
+
+export default () => (
+  <>
+    <div className="menudoc">
+      <div>
+        <h3>vertical</h3>
+        <Menu mode={"vertical"}>
+          <Menu.Item>menu1</Menu.Item>
+          <Menu.Item>menu2</Menu.Item>
+          <Menu.Item>menu3</Menu.Item>
+          <Menu.SubMenu title={"subMenu"}>
+            <Menu.Item>sub1</Menu.Item>
+            <Menu.Item>sub2</Menu.Item>
+            <Menu.Item>sub3</Menu.Item>
+          </Menu.SubMenu>
+        </Menu>
+      </div>
+      <div>
+        <h3>horizontal</h3>
+        <Menu mode={"horizontal"}>
+          <Menu.Item>menu1</Menu.Item>
+          <Menu.Item>menu2</Menu.Item>
+          <Menu.Item>menu3</Menu.Item>
+          <Menu.SubMenu title={"subMenu"}>
+            <Menu.Item>sub1</Menu.Item>
+            <Menu.Item>sub2</Menu.Item>
+            <Menu.Item>sub3</Menu.Item>
+          </Menu.SubMenu>
+        </Menu>
+      </div>
+    </div>
+  </>
+);
 ```
 
 ### Menu 属性

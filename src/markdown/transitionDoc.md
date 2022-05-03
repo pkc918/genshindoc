@@ -1,13 +1,20 @@
 ### Transition 基本用法
 
 ```tsx
-<Transition
-    in={true}
-    timeout={300}
-    animation="zoom-in-top"
->
-  {/* 子组件 */}
-</Transition>
+import {Transition} from "genshinui";
+
+export default () => (
+  <>
+    <Transition
+      in={true}
+      timeout={300}
+      animation="zoom-in-top"
+    >
+      {/* 子组件 */}
+    </Transition>
+  </>
+);
+
 ```
 
 ### Transition 属性

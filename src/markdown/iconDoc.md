@@ -1,7 +1,13 @@
 ### Icon基本用法
 
 ```tsx
-<Icon icon={"coffee"}/>
+import {Icon} from "genshinui";
+
+export default () => (
+  <>
+    <Icon icon={"coffee"}/>
+  </>
+);
 ```
 
 ### Icon 属性
