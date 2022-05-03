@@ -18,6 +18,7 @@ import MenuDoc from "./doc/Menu/menu.doc";
 import IconDoc from "./doc/Icon/icon.doc";
 import TransitionDoc from "./doc/Transition/transition.doc";
 import InputDoc from "./doc/Input/input.doc";
+import ProgressDoc from "./doc/Progress/progress.doc";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/doc/icon" element={<IconDoc/>}/>
           <Route path="/doc/transition" element={<TransitionDoc/>}/>
           <Route path="/doc/input" element={<InputDoc/>}/>
+          <Route path="/doc/progress" element={<ProgressDoc/>}/>
         </Route>
         <Route path={"*"} element={<More/>}/>
       </Routes>
