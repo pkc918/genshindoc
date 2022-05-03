@@ -9,6 +9,7 @@ const ProgressDoc: React.FC = () => {
   return (
     <Layout>
       <MarkDownShow mdData={progressDoc}>
+        <h3>Progress 进度条</h3>
         <div className="progress">
           <Progress strokeHeight={60} theme="primary" percent={20}/>
           <Progress theme="secondary" percent={30} showText={false}/>

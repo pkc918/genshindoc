@@ -9,6 +9,7 @@ const MenuDoc: React.FC = () => {
   return (
     <Layout>
       <MarkDownShow mdData={menuDoc}>
+        <h3>Menu 菜单</h3>
         <div className="menudoc">
           <div>
             <h3>vertical</h3>
