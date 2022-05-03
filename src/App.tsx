@@ -12,7 +12,7 @@ import Intro from "./markdown/intro.md";
 import Install from "./markdown/install.md";
 import Started from "./markdown/started.md";
 
-import G from "./doc/More/Gin";
+import More from "./doc/More/more";
 import ButtonDoc from "./doc/Button/button.doc";
 import MenuDoc from "./doc/Menu/menu.doc";
 import IconDoc from "./doc/Icon/icon.doc";
@@ -33,10 +33,10 @@ function App() {
           <Route path="/doc/button" element={<ButtonDoc/>}/>
           <Route path="/doc/menu" element={<MenuDoc/>}/>
           <Route path="/doc/icon" element={<IconDoc/>}/>
-          <Route path="/doc/transition" element={<TransitionDoc/>} />
-          <Route path="/doc/input" element={<InputDoc/>} />
+          <Route path="/doc/transition" element={<TransitionDoc/>}/>
+          <Route path="/doc/input" element={<InputDoc/>}/>
         </Route>
-        <Route path={"*"} element={<G/>}/>
+        <Route path={"*"} element={<More/>}/>
       </Routes>
     </BrowserRouter>
   );
