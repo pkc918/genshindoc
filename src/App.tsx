@@ -12,7 +12,7 @@ import Intro from "./markdown/intro.md";
 import Install from "./markdown/install.md";
 import Started from "./markdown/started.md";
 
-import G from "./Gin";
+import G from "./doc/More/Gin";
 import ButtonDoc from "./doc/Button/button.doc";
 import MenuDoc from "./doc/Menu/menu.doc";
 import IconDoc from "./doc/Icon/icon.doc";

@@ -32,6 +32,15 @@ const navLinkData: navLinkType[] = [{
 }, {
   toPath: "/doc/input",
   btnName: "Input 输入框"
+}, {
+  toPath: "/doc/progress",
+  btnName: "Progress 进度条"
+}, {
+  toPath: "/doc/upload",
+  btnName: "Upload 上传"
+}, {
+  toPath: "/doc/more",
+  btnName: "敬请期待"
 }];
 
 const NavBar: React.FC = () => {
